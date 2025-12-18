@@ -1,8 +1,8 @@
 export async function onRequestPost(context) {
   const env = context.env;
   const MACRODROID_BASE_URL = "https://trigger.macrodroid.com/YOUR_UUID_HERE"; // Thay UUID của bạn vào
-  const TELEGRAM_TOKEN = "YOUR_BOT_TOKEN_HERE"; // Thay Token Bot của bạn vào
-  const MY_CHAT_ID = 123456789; // Thay ID Telegram của bạn để bảo mật
+  const TELEGRAM_TOKEN = "8261076722:AAFaEqamJEJAZi6nexoIh_STt_GHa6oVKuI"; // Thay Token Bot của bạn vào
+  const MY_CHAT_ID = 5524168349; // Thay ID Telegram của bạn để bảo mật
 
   const payload = await context.request.json();
 
